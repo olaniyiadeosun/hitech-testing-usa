@@ -1,0 +1,79 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force LF line endings for these files
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+
+# Force CRLF line endings for Windows batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+*.pyc binary
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# Exclude these files from Git LFS (they're small enough)
+*.svg text
+*.json text
+*.css text
+*.js text
+*.ts text
+*.tsx text
+*.jsx text
+
+# Large files that should be in Git LFS (if you enable it later)
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
+# *.mov filter=lfs diff=lfs merge=lfs -text
+# *.avi filter=lfs diff=lfs merge=lfs -text
+# *.mpg filter=lfs diff=lfs merge=lfs -text
+# *.mpeg filter=lfs diff=lfs merge=lfs -text
+# *.mp3 filter=lfs diff=lfs merge=lfs -text
+# *.flac filter=lfs diff=lfs merge=lfs -text
+# *.flv filter=lfs diff=lfs merge=lfs -text
+# *.ogg filter=lfs diff=lfs merge=lfs -text
+# *.wma filter=lfs diff=lfs merge=lfs -text
+# *.aiff filter=lfs diff=lfs merge=lfs -text
+# *.wav filter=lfs diff=lfs merge=lfs -text
+
+# Export ignore patterns
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
